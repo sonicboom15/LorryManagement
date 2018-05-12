@@ -6,11 +6,11 @@ package university.sathyabama.lorrymanagement;
 
 public class Lorry {
     private String id;
-    private float temp;
-    private boolean door;
+    private double temp;
+    private int door;
     private double lat,lon;
 
-    public Lorry(String id, float temp, boolean door, double lat, double lon) {
+    public Lorry(String id, double temp, int door, double lat, double lon) {
         this.id = id;
         this.temp = temp;
         this.door = door;
@@ -22,11 +22,11 @@ public class Lorry {
         return id;
     }
 
-    public float getTemp() {
+    public double getTemp() {
         return temp;
     }
 
-    public boolean isDoor() {
+    public int getDoor() {
         return door;
     }
 
@@ -37,4 +37,5 @@ public class Lorry {
     public double getLon() {
         return lon;
     }
+
 }

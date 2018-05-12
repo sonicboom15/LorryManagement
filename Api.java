@@ -5,6 +5,6 @@ package university.sathyabama.lorrymanagement;
  */
 
 public class Api {
-    private static final String ROOT_URL = "https://rishikumar.online/MilkFactory/api.phpapicall=?";
-    public static final String URL_READ_LORRIES = ROOT_URL+"getlorries";
+    private static final String ROOT_URL = "http://www.rishikumar.online/Milk_factory/api/senddata.php?apicall=";
+    public static final String URL_READ_LORRIES = ROOT_URL+"getLorries";
 }
